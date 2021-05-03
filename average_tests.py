@@ -2,7 +2,7 @@
 import unittest
 from average import average
 
-class CubeTests(unittest.TestCase):
+class AverageTests(unittest.TestCase):
     def test_math(self):
         self.assertEqual(average([1., 2., 3.]), 2.)
         self.assertEqual(average([99999., 2., 3.]), 33334.666666666664)
